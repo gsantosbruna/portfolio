@@ -3,11 +3,6 @@
   justify-content: flex-end;
   align-items: center;
   padding: 0.7em 7em;
-  position: fixed;
-  background-color: var(--secondary-color);
-  top: 0;
-  right: 0;
-  width: 100%;
 }
 
 .navBar-options,
@@ -50,6 +45,16 @@
   .navBar {
     justify-content: flex-end;
     padding: 0 2em;
+    position: fixed;
+    background-color: var(--secondary-color);
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  .icon {
+    width: 1.2em;
+    height: 1.2em;
   }
 
   .navBar-options {
@@ -75,7 +80,7 @@
   }
 
   .container__imagem {
-    padding: 1em;
+    padding: 0.5em;
   }
 
   .lista-menu {
