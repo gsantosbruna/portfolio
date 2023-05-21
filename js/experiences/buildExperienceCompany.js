@@ -8,7 +8,7 @@ export default function createCompanyCard(element) {
   const { company, title, startDate, endDate, description } = element;
   const companyCard = document.createElement("li");
   companyCard.className = "experience-company__item";
-  const icon = `./img/${company}.svg`;
+  const icon = `./img/${company.toLowerCase()}.svg`;
   companyCard.innerHTML = `
     <img class="experience__icon" src="${icon}" alt="logo ${company}"/>
     <div class="experience__description">
