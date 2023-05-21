@@ -3,6 +3,11 @@
   justify-content: flex-end;
   align-items: center;
   padding: 0.7em 7em;
+  position: fixed;
+  background-color: var(--secondary-color);
+  top: 0;
+  right: 0;
+  width: 100%;
 }
 
 .navBar-options,
@@ -16,7 +21,7 @@
 .navBar-options__icon {
   padding: 0 0.5em;
   font-weight: 400;
-  font-size: 0.75em;
+  font-size: 2em;
 }
 
 .navBar-options__icon {
@@ -25,8 +30,8 @@
   align-items: center;
 }
 .icon {
-  width: 1.2em;
-  height: 1.2em;
+  width: 1em;
+  height: 1em;
 }
 
 .navBar-contact__button {
@@ -44,15 +49,11 @@
 @media screen and (max-width: 600px) {
   .navBar {
     justify-content: flex-end;
-    padding: 0 0;
+    padding: 0 2em;
   }
 
   .navBar-options {
     display: none;
-  }
-
-  .navBar-options__icons {
-    gap: 1em;
   }
 
   .navBar-contact {
@@ -60,8 +61,8 @@
   }
 
   .cabecalho__menu-hamburguer {
-    width: 24px;
-    height: 24px;
+    width: 1em;
+    height: 1em;
     background-image: url("../img/menu.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -80,13 +81,18 @@
   .lista-menu {
     display: none;
     position: absolute;
-    top: 1.5%;
+    top: 100%;
     right: 0;
     width: 50%;
+    height: 100vh;
+    background-color: var(--main-color);
+    opacity: 0;
+    animation: fadeIn 0.3s ease forwards;
   }
 
   .container__botao:checked ~ .lista-menu {
     display: block;
+    opacity: 1;
   }
 
   .lista-menu__titulo,
@@ -104,5 +110,23 @@
 
   .container__botao {
     display: none;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }
