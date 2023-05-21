@@ -21,7 +21,7 @@
 .navBar-options__icon {
   padding: 0 0.5em;
   font-weight: 400;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .navBar-options__icon {
@@ -30,8 +30,8 @@
   align-items: center;
 }
 .icon {
-  width: 1em;
-  height: 1em;
+  width: 0.8em;
+  height: 0.8em;
 }
 
 .navBar-contact__button {
