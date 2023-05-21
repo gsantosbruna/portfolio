@@ -4,12 +4,15 @@
   align-items: self-start;
   width: 100%;
   gap: 3em;
+  margin-bottom: 4em;
 }
 
 .experience-banner__title {
   font-family: var(--secondary-font);
   font-size: 3em;
   font-weight: 700;
+  display: flex;
+  gap: 0.5em;
 }
 
 .experience-banner__content {
@@ -45,7 +48,7 @@
 
 .experience-company__item.clicked,
 .experience-company__item:hover {
-  background-color: #e3e8ed;
+  background-color: var(--quaternary-color);
   border-radius: 5px;
 }
 
@@ -103,7 +106,7 @@
 }
 
 .experience-detail__link {
-  color: #134fd2;
+  color: var(--main-color);
 }
 
 .experience-detail__main {
@@ -113,9 +116,32 @@
 
 .experience-detail__time {
   color: var(--subtitle-color);
-  font-size: 0.2rem;
+  font-size: 1em;
 }
 
 .experience-detail__title {
   font-size: 1.2em;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .experience-banner__content {
+    flex-direction: column;
+    align-items: center;
+    margin: 2em auto;
+  }
+
+  .experience__description {
+    display: none;
+  }
+
+  .experience-company__card {
+    flex-direction: row;
+    width: auto;
+    margin-bottom: 2em;
+  }
+
+  .experience-detail__card {
+    width: auto;
+  }
 }

@@ -1,0 +1,29 @@
+.contact__information {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__banner {
+  border-radius: 25px;
+  background: var(--quaternary-color);
+  padding: 42px;
+  width: 80%;
+  align-self: center;
+}
+
+.contact__title {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 1.7em;
+  margin-bottom: 0.5em;
+}
+
+.contact__information {
+  color: var(--main-color);
+  font-family: var(--primary-font);
+  opacity: 0.7;
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}

@@ -30,7 +30,7 @@
   flex-wrap: wrap;
 }
 
-.banner-techs__item {
+.techs__item {
   display: flex;
   justify-content: center;
   align-items: center;

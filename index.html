@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Portfolio</title>
@@ -12,65 +12,76 @@
     <header class="navBar">
       <ul class="navBar-options">
         <li class="navBar-options__link"><a href="#">Home</a></li>
-        <li class="navBar-options__link"><a href="#">About</a></li>
-        <li class="navBar-options__link"><a href="#">Work</a></li>
+        <li class="navBar-options__link"><a href="#experiences">Experiences</a></li>
+        <li class="navBar-options__link"><a href="#works">Work</a></li>
       </ul>
-      <ul class="navBar-options">
+      <ul class="navBar-options__icons">
         <li class="navBar-options__icon">
-          <a href="#"
+          <a href="https://github.com/gsantosbruna"
             ><img class="icon" src="./img/github.svg" alt="github"
           /></a>
         </li>
         <li class="navBar-options__icon">
-          <a href="#"
+          <a href="https://www.linkedin.com/in/brunarobertasantos/"
             ><img class="icon" src="./img/linkedin.svg" alt="linkedin"
           /></a>
         </li>
       </ul>
       <ul class="navBar-contact">
-        <li class="navBar-contact__button"><a href="#">Contact me -></a></li>
+        <li class="navBar-contact__button"><a href="#contact">Contact me -></a></li>
       </ul>
+      <div class="container">
+        <input type="checkbox" id="menu" class="container__botao">
+        <label for="menu" class="container__label">
+            <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+        </label>
+        <ul class="lista-menu">
+          <li class="lista-menu__item"><a href="#">Home</a></li>
+          <li class="lista-menu__item"><a href="#experiences">Experiences</a></li>
+          <li class="lista-menu__item"><a href="#works">Work</a></li>
+          <li class="lista-menu__item"><a href="#contact">Contact me</a></li>
+        </ul>
     </header>
     <main class="main">
         <section class="banner">
             <h1 class="banner__title">Hello I’m Bruna</h1>
             <p class="banner__subtitle">I am a UI Engineer at Google, where I design and develop user-centered interfaces for cutting-edge technology products. I work with a talented team to create visually appealing and intuitive designs that enhance user experience. I am passionate about using technology to create beautiful and functional designs that solve real-world problems.</p>
             <ul class="banner-techs">
-              <li class="banner-techs__item">
+              <li class="techs__item">
                   <img class="banner-techs__icon" src="./img/html.svg" />
                   <p class="banner-techs__text">HTML</p>
               </li>
-              <li class="banner-techs__item">
+              <li class="techs__item">
                   <img class="banner-techs__icon" src="./img/css.svg" />
                   <p class="banner-techs__text">CSS</p>
               </li>
-              <li class="banner-techs__item">
+              <li class="techs__item">
                   <img class="banner-techs__icon" src="./img/js.svg" />
                   <p class="banner-techs__text">JavaScript</p>
               </li>
-              <li class="banner-techs__item">
+              <li class="techs__item">
                   <img class="banner-techs__icon" src="./img/swift.svg" />
                   <p class="banner-techs__text">Swift</p>
               </li>
-              <li class="banner-techs__item">
+              <li class="techs__item">
                   <img class="banner-techs__icon" src="./img/selenium.svg" />
                   <p class="banner-techs__text">Selenium</p>
               </li>
-              <li class="banner-techs__item">
+              <li class="techs__item">
                   <img class="banner-techs__icon" src="./img/python.svg" />
                   <p class="banner-techs__text">Python</p>
               </li>
-              <li class="banner-techs__item">
+              <li class="techs__item">
                   <img class="banner-techs__icon" src="./img/jira.svg" />
                   <p class="banner-techs__text">Jira</p>
               </li>
-              <li class="banner-techs__item">
+              <li class="techs__item">
                   <img class="banner-techs__icon" src="./img/xcode.svg" />
                   <p class="banner-techs__text">XCTest</p>
               </li>
           </section>
       
-          <section class="experience-banner">
+          <section class="experience-banner" id="experiences">
               <h2 class="experience-banner__title">My experience</h2>
               <div class="experience-banner__content">
                   <ul class="experience-company__card" data-company>
@@ -85,8 +96,95 @@
                   </ul>
               </div>
           </section>
+
+          <section class="experience-banner" id="works">
+            <h2 class="experience-banner__title">My latest <p class="emphasys-text">work</p></h2>
+            <div class="works">
+              <div class="works__item">
+                <h3 class="works__title">Portfolio</h3>   
+                <img class="works__img" src="./img/portfolio.png" alt="portfolio" />
+                <div class="works__footer">
+                  <div class="works__tags__links">
+                    <ul class="works__tags">
+                      <li class="works__tag"><p class="works__tag__text">HTML</p></li>
+                      <li class="works__tag"><p class="works__tag__text">CSS</p></li> 
+                      <li class="works__tag"><p class="works__tag__text">JavaScript</p></li>
+                    </ul>
+                    <ul class="works__links">
+                      <a href="https://github.com/gsantosbruna/portfolio"><img class="works__link" src="./img/github.svg" alt="github" /></a>
+                      <a href=""><img class="works__link" src="./img/link.svg" alt="link" /></a>
+                    </ul>
+                  </div>
+                  <p class="works__description">This is my portfolio, where I show my latest projects and my experience. It was a project made to review the concepts of HTML, CSS and JavaScript that I learned until now starting from a design from bludDev.</p>
+                </div>
+              </div>
+              <div class="works__item">
+                <h3 class="works__title">Alura Books</h3>   
+                <img class="works__img" src="./img/alurabooks.png" alt="alurabooks" />
+                <div class="works__footer">
+                  <div class="works__tags__links">
+                    <ul class="works__tags">
+                      <li class="works__tag"><p class="works__tag__text">HTML</p></li>
+                      <li class="works__tag"><p class="works__tag__text">CSS</p></li> 
+                      <li class="works__tag"><p class="works__tag__text">Mobile first</p></li>
+                    </ul>
+                    <ul class="works__links">
+                      <a href="https://github.com/gsantosbruna/alurabooks"><img class="works__link" src="./img/github.svg" alt="github" /></a>
+                      <a href="https://gsantosbruna.github.io/alurabooks/"><img class="works__link" src="./img/link.svg" alt="link" /></a>
+                    </ul>
+                  </div>
+                  <p class="works__description">This is the Alura Books, a project to put in practice the mobile-first approach to apply concepts of responsiviness.</p>
+                </div>
+              </div>
+              <div class="works__item">
+                <h3 class="works__title">Alura Plus</h3>   
+                <img class="works__img" src="./img/aluraplus.png" alt="alura plus" />
+                <div class="works__footer">
+                  <div class="works__tags__links">
+                    <ul class="works__tags">
+                      <li class="works__tag"><p class="works__tag__text">HTML</p></li>
+                      <li class="works__tag"><p class="works__tag__text">CSS</p></li> 
+                    </ul>
+                    <ul class="works__links">
+                      <a href="https://github.com/gsantosbruna/alura-plus"><img class="works__link" src="./img/github.svg" alt="github" /></a>
+                      <a href="https://gsantosbruna.github.io/alura-plus/"><img class="works__link" src="./img/link.svg" alt="link" /></a>
+                    </ul>
+                  </div>
+                  <p class="works__description">This is the Alura Plus, my first project HTML + CSS.</p>
+                </div>
+              </div>
+              <div class="works__item">
+                <h3 class="works__title">Alura Books API</h3>   
+                <img class="works__img" src="./img/alurabooksapi.png" alt="alura books api" />
+                <div class="works__footer">
+                  <div class="works__tags__links">
+                    <ul class="works__tags">
+                      <li class="works__tag"><p class="works__tag__text">HTML</p></li>
+                      <li class="works__tag"><p class="works__tag__text">CSS</p></li> 
+                      <li class="works__tag"><p class="works__tag__text">JavaScript</p></li>
+                    </ul>
+                    <ul class="works__links">
+                      <a href="https://github.com/gsantosbruna/alurabooks-api"><img class="works__link" src="./img/github.svg" alt="github" /></a>
+                      <a href="https://gsantosbruna.github.io/alurabooks-api/"><img class="works__link" src="./img/link.svg" alt="link" /></a>
+                    </ul>
+                  </div>
+                  <p class="works__description">This is the Alura Book API, a project to exercise JavaScript throught the utilization of API and methods as filter, map, reduce, etc.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="experience-banner" id="contact">
+            <div class="contact__banner">
+              <h2 class="contact__title">Ready to start your next project?</h2>
+              <h2 class="emphasys-text contact__title">Get it touch me!</h2>
+              <div class="contact__information">
+                <a href="mailto:brunargasantos@gmail.com">brunargasantos@gmail.com</a>
+                <a href="tel:+330656675535">+33 06 56 67 55 35</a>
+              </div>
+            </div>
+          </section>
     </main>
-    
-    <script src="./js/showExperience.js" type="module"></script>
+    <script src="./js/experiences/buildExperienceCompany.js" type="module"></script>
+    <script src="./js/experiences/buildExperienceDetail.js" type="module"></script>
   </body>
 </html>
