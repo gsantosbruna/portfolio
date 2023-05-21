@@ -1,0 +1,121 @@
+.experience-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  width: 100%;
+  gap: 3em;
+}
+
+.experience-banner__title {
+  font-family: var(--secondary-font);
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.experience-banner__content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 5%;
+}
+.experience-company__card {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.experience__description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+.experience-company__item {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1.7em;
+}
+
+.experience-company__item.hovered:not(.clicked),
+.experience-company__item:not(.hovered).clicked {
+  background-color: #e3e8ed;
+  border-radius: 5px;
+}
+
+.experience-company__item.clicked,
+.experience-company__item:hover {
+  background-color: #e3e8ed;
+  border-radius: 5px;
+}
+
+.experience__icon {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.experience-company__item-name {
+  font-family: var(--quaternary-font);
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.experience-company__item-title {
+  font-family: var(--quaternary-font);
+  font-weight: 400;
+  opacity: 0.4;
+  font-size: 0.8em;
+}
+
+.experience-detail__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.75em;
+  width: 50%;
+}
+
+.experience-detail__text {
+  text-align: justify;
+  font-family: var(--quaternary-font);
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.experience-detail__icon {
+  margin-right: 0.5em;
+}
+
+.experience-detail__description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.75em;
+}
+
+.exerience-detail__main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5em;
+}
+
+.experience-detail__link {
+  color: #134fd2;
+}
+
+.experience-detail__main {
+  font-family: var(--quaternary-font);
+  font-weight: 400;
+}
+
+.experience-detail__time {
+  color: var(--subtitle-color);
+  font-size: 0.2rem;
+}
+
+.experience-detail__title {
+  font-size: 1.2em;
+}

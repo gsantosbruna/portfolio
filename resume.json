@@ -1,117 +1,120 @@
 {
-  "phone": "+33 06 56 67 55 35",
-  "name": "Bruna Santos",
-  "email": "bruna.roberta@ufpe.br",
-  "linkedin": "linkedin.com/in/brunarobertasantos/",
-  "github": "github.com/gsantosbruna",
-  "aboutMe": "A dedicated engineering student with a strong foundation in QA, seeking a summer internship as a Junior Web Developer at Confledis. Offering recent experience in frontend development and a passion for building innovative digital platforms.",
-  "education": [
-    {
-      "degree": "Mechatronics and Complex Systems",
-      "level": "Bac+5 Mechanical Engineering",
-      "institution": "Institut Supérieur de Mécanique de Paris (ISAE-Supméca)",
-      "startYear": 2022,
-      "endYear": 2024
-    },
-    {
-      "degree": "B.Sc. in Mechanical Engineering",
-      "institution": "Federal University of Pernambuco (UFPE)",
-      "startYear": 2018,
-      "endYear": 2024
-    },
-    {
-      "degree": "Test Automation, Information and Communication Technology Extension",
-      "institution": "CESAR School",
-      "startYear": 2021,
-      "endYear": 2022
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "proficiency": "Fluent"
-    },
-    {
-      "language": "French",
-      "proficiency": "Advanced"
-    },
-    {
-      "language": "Portuguese",
-      "proficiency": "Native"
-    },
-    {
-      "language": "Spanish",
-      "proficiency": "Intermediate"
-    }
-  ],
-  "experience": [
-    {
-      "company": "Self-taught",
-      "title": "Frontend Developer",
-      "startDate": "Janyary 2023",
-      "endDate": "Present",
-      "description": "Spent recent months learning frontend development with JavaScript, CSS, HTML5, and React. Developed personal projects, available on GitHub (github.com/gsantosbruna)."
-    },
-    {
-      "company": "CAPES, BRAFITEC Scholarship Awardee",
-      "title": "Student",
-      "startDate": "Sep 2022",
-      "endDate": "Present",
-      "location": "France, Paris",
-      "description": "Student of BRAFITEC (BRAsil France Ingénieur TECnologia) exchange program, developed in the scope of cooperation between Brazil and France governments. Financed by the brazilian Coordination for the Improvement of Higher Education Personnel (CAPES), which offers scholarships to about 200 students who have excelled in Brazilian engineering programs."
-    },
-    {
-      "company": "ENERMAN",
-      "title": "Project Researcher",
-      "startDate": "Sep 2022",
-      "endDate": "Jan 2023",
-      "location": "France, Paris",
-      "description": "Researched and developed a Bayesian Network model to create risk assessment analysis of a energy prediction tool (ENERMAN). Used Python, specially pgmpy, matplotlib libraries, to build bow-tie model for risk analysis."
-    },
-    {
-      "company": "CESAR",
-      "title": "Quality Assurance Engineer",
-      "startDate": "July 2021",
-      "endDate": "Aug 2022",
-      "location": "Brazil, Recife",
-      "description": "Developed English communication skills in an international environment with a global team. Created and executed test plans for functional and non-functional manual tests. Created UI automated tests using Swift language and XCUITest framework on iOS devices. Practiced Git/Github version control."
-    },
-    {
-      "company": "Motorola",
-      "title": "Software Test Engineer",
-      "startDate": "April 2021",
-      "endDate": "July 2021",
-      "location": "Brazil, Recife",
-      "description": "Executed manual test cycles with regression and exploratory functional tests. Execution and maintenance of automated test scripts for Android using Java and UIAutomator. Investigation and tracking of issues, opening change requests (CR's), and retests with JIRA."
-    },
-    {
-      "company": "Motorola",
-      "title": "Software Test Engineer",
-      "startDate": "July 2020",
-      "endDate": "April 2021",
-      "location": "Brazil, Recife",
-      "description": "Executed manual test cycles with regression and exploratory functional tests. Execution and maintenance of automated test scripts for Android using Java and UIAutomator. Investigation and tracking of issues, opening change requests (CR's), and retests with JIRA."
-    }
-  ],
-  "skills": {
-    "soft": [
-      "Problem solving",
-      "Cultural sensitivity",
-      "Adaptability",
-      "Team Working",
-      "Collaboration",
-      "Communication"
+  "data": {
+    "phone": "+33 06 56 67 55 35",
+    "name": "Bruna Santos",
+    "email": "bruna.roberta@ufpe.br",
+    "linkedin": "linkedin.com/in/brunarobertasantos/",
+    "github": "github.com/gsantosbruna",
+    "aboutMe": "A dedicated engineering student with a strong foundation in QA, seeking a summer internship as a Junior Web Developer at Confledis. Offering recent experience in frontend development and a passion for building innovative digital platforms.",
+    "education": [
+      {
+        "degree": "Mechatronics and Complex Systems",
+        "level": "Bac+5 Mechanical Engineering",
+        "institution": "Institut Supérieur de Mécanique de Paris (ISAE-Supméca)",
+        "startYear": 2022,
+        "endYear": 2024
+      },
+      {
+        "degree": "B.Sc. in Mechanical Engineering",
+        "institution": "Federal University of Pernambuco (UFPE)",
+        "startYear": 2018,
+        "endYear": 2024
+      },
+      {
+        "degree": "Test Automation, Information and Communication Technology Extension",
+        "institution": "CESAR School",
+        "startYear": 2021,
+        "endYear": 2022
+      }
     ],
-    "over2Years": ["Python", "Git", "GitHub"],
-    "over1Year": ["Swift", "XCUITest", "XCTest", "Scrum", "Jira", "Selenium"],
-    "lessThan1Year": [
-      "JavaScript",
-      "CSS",
-      "HTML5",
-      "C/C++",
-      "Arduino",
-      "Matlab"
-    ]
-  },
-  "certifications": ["CTFL Foundation Level - ISQTB"]
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      },
+      {
+        "language": "French",
+        "proficiency": "Advanced"
+      },
+      {
+        "language": "Portuguese",
+        "proficiency": "Native"
+      },
+      {
+        "language": "Spanish",
+        "proficiency": "Intermediate"
+      }
+    ],
+    "experience": [
+      {
+        "company": "CAPES",
+        "title": "BRAFITEC Scholarship Awardee",
+        "startDate": "Sep 2022",
+        "endDate": "Present",
+        "location": "France, Paris",
+        "description": [
+          "Student of BRAFITEC (BRAsil France Ingénieur TECnologia) exchange program, developed in the scope of cooperation between Brazil and France governments.",
+          "Financed by the brazilian Coordination for the Improvement of Higher Education Personnel (CAPES), which offers scholarships to about 200 students who have excelled in Brazilian engineering programs."
+        ]
+      },
+      {
+        "company": "ENERMAN",
+        "title": "Project Researcher",
+        "startDate": "Sep 2022",
+        "endDate": "Jan 2023",
+        "location": "France, Paris",
+        "description": [
+          "Researched and developed a Bayesian Network model to create risk assessment analysis of an energy prediction tool (ENERMAN).",
+          "Used Python, especially pgmpy, matplotlib libraries, to build a bow-tie model for risk analysis."
+        ]
+      },
+      {
+        "company": "CESAR",
+        "title": "Quality Assurance Engineer",
+        "startDate": "July 2021",
+        "endDate": "Aug 2022",
+        "location": "Brazil, Recife",
+        "description": [
+          "Developed English communication skills in an international environment with a global team.",
+          "Created and executed test plans for functional and non-functional manual tests.",
+          "Created UI automated tests using Swift language and XCUITest framework on iOS devices."
+        ]
+      },
+      {
+        "company": "Motorola",
+        "title": "Software Test Engineer",
+        "startDate": "July 2020",
+        "endDate": "July 2021",
+        "location": "Brazil, Recife",
+        "description": [
+          "Internship from July 2020 to April 2021",
+          "Full-time Test Engineer from April 2021 to July 2021",
+          "Executed manual test cycles with regression and exploratory functional tests.",
+          "Execution and maintenance of automated test scripts for Android using Java and UIAutomator.",
+          "Investigation and tracking of issues, opening change requests (CR's), and retests with JIRA."
+        ]
+      }
+    ],
+    "skills": {
+      "soft": [
+        "Problem solving",
+        "Cultural sensitivity",
+        "Adaptability",
+        "Team Working",
+        "Collaboration",
+        "Communication"
+      ],
+      "over2Years": ["Python", "Git", "GitHub"],
+      "over1Year": ["Swift", "XCUITest", "XCTest", "Scrum", "Jira", "Selenium"],
+      "lessThan1Year": [
+        "JavaScript",
+        "CSS",
+        "HTML5",
+        "C/C++",
+        "Arduino",
+        "Matlab"
+      ]
+    },
+    "certifications": ["CTFL Foundation Level - ISQTB"]
+  }
 }

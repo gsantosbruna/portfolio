@@ -1,0 +1,36 @@
+@import url("navBar.css");
+@import url("banner.css");
+@import url("experience.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@700&family=Source+Code+Pro:wght@700&family=Source+Sans+Pro&display=swap");
+
+:root {
+  --primary-color: #111827;
+  --secondary-color: #f7f3f3;
+  --tertiary-color: #898989;
+  --quaternary-color: #e3e8ed;
+  --main-color: #134fd2;
+  --subtitle-color: #6b7280;
+  --primary-font: "Inter", sans-serif;
+  --secondary-font: "Source Code Pro", monospace;
+  --tertiary-font: "Open Sans", sans-serif;
+  --quarternary-font: "Source Sans Pro", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1200px;
+  padding: 40px;
+  margin: auto;
+}
