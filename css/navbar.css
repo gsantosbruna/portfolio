@@ -59,7 +59,7 @@
     display: none;
   }
 
-  .cabeçalho__menu-hamburguer {
+  .cabecalho__menu-hamburguer {
     width: 24px;
     height: 24px;
     background-image: url("../img/menu.svg");
@@ -97,7 +97,7 @@
     color: var(--secondary-color);
     border-top: var(--secondary-color) 1px solid;
   }
-  .container__botao:checked ~ .container__label > .cabeçalho__menu-hamburguer {
+  .container__botao:checked ~ .container__label > .cabecalho__menu-hamburguer {
     background-image: url("../img/openMenu.svg");
     background-color: var(--main-color);
   }
