@@ -30,17 +30,19 @@
       <ul class="navBar-contact">
         <li class="navBar-contact__button"><a href="#contact">Contact me -></a></li>
       </ul>
-      <div class="container">
-        <input type="checkbox" id="menu" class="container__botao">
-        <label for="menu" class="container__label">
-            <span class="cabecalho__menu-hamburguer container__imagem"></span>
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
         </label>
-        <ul class="lista-menu">
-          <li class="lista-menu__item"><a href="#">Home</a></li>
-          <li class="lista-menu__item"><a href="#experiences">Experiences</a></li>
-          <li class="lista-menu__item"><a href="#works">Work</a></li>
-          <li class="lista-menu__item"><a href="#contact">Contact me</a></li>
+    
+        <ul class="menu__box">
+          <li><a class="menu__item" href="#">Home</a></li>
+          <li><a class="menu__item" href="#experiences">Experiences</a></li>
+          <li><a class="menu__item" href="#works">Works</a></li>
+          <li><a class="menu__item" href="#contact">Contact</a></li>
         </ul>
+      </div>
     </header>
     <main class="main">
         <section class="banner">
@@ -98,7 +100,7 @@
           </section>
 
           <section class="experience-banner" id="works">
-            <h2 class="experience-banner__title">My latest <p class="emphasys-text">work</p></h2>
+            <h2 class="experience-banner__title">My latest <p class="emphasys-text">works</p></h2>
             <div class="works">
               <div class="works__item">
                 <h3 class="works__title">Portfolio</h3>   
@@ -176,7 +178,7 @@
           <section class="experience-banner" id="contact">
             <div class="contact__banner">
               <h2 class="contact__title">Ready to start your next project?</h2>
-              <h2 class="emphasys-text contact__title">Get it touch me!</h2>
+              <h2 class="emphasys-text contact__title">Get in touch with me!</h2>
               <div class="contact__information">
                 <a href="mailto:brunargasantos@gmail.com">brunargasantos@gmail.com</a>
                 <a href="tel:+330656675535">+33 06 56 67 55 35</a>

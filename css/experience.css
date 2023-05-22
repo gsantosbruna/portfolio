@@ -38,6 +38,7 @@
   display: flex;
   justify-content: flex-start;
   padding: 1.7em;
+  gap: 1em;
 }
 
 .experience-company__item.hovered:not(.clicked),
@@ -55,7 +56,6 @@
 .experience__icon {
   width: 1.5em;
   height: 1.5em;
-  margin-right: 0.5em;
 }
 
 .experience-company__item-name {
@@ -69,6 +69,7 @@
   font-weight: 400;
   opacity: 0.4;
   font-size: 0.8em;
+  text-align: left;
 }
 
 .experience-detail__card {
@@ -131,6 +132,11 @@
     margin: auto auto;
   }
 
+  .experience-banner {
+    margin-top: -6em;
+    padding-top: 6em;
+  }
+
   .experience-banner__title {
     flex-direction: column;
     align-self: center;
@@ -144,6 +150,7 @@
     flex-direction: row;
     width: auto;
     margin-bottom: 2em;
+    gap: 0.5em;
   }
 
   .experience-detail__card {
