@@ -45,7 +45,7 @@
       </div>
     </header>
     <main class="main">
-        <section class="banner">
+        <section class="banner" data-banner>
             <h1 class="banner__title">Hello I’m Bruna</h1>
             <p class="banner__subtitle">I am a Mechanical Enginering student and former QA Engineer, currently enhancing my skills in front-end development. Through my diverse engineering background, I've developed a passion for utilizing technology to tackle complex problems. Whether it's Python, Swift, or my recent explorations into JavaScript, CSS, and HTML, I am committed to creating high-quality, user-centric solutions. Welcome to my portfolio!</p>
             <ul class="banner-techs">
@@ -102,77 +102,6 @@
           <section class="experience-banner" id="works">
             <h2 class="experience-banner__title">My latest <p class="emphasys-text">works</p></h2>
             <div class="works">
-              <div class="works__item">
-                <h3 class="works__title">Portfolio</h3>   
-                <img class="works__img" src="./img/portfolio.png" alt="portfolio" />
-                <div class="works__footer">
-                  <div class="works__tags__links">
-                    <ul class="works__tags">
-                      <li class="works__tag"><p class="works__tag__text">HTML</p></li>
-                      <li class="works__tag"><p class="works__tag__text">CSS</p></li> 
-                      <li class="works__tag"><p class="works__tag__text">JavaScript</p></li>
-                    </ul>
-                    <ul class="works__links">
-                      <a href="https://github.com/gsantosbruna/portfolio"><img class="works__link" src="./img/github.svg" alt="github" /></a>
-                      <a href=""><img class="works__link" src="./img/link.svg" alt="link" /></a>
-                    </ul>
-                  </div>
-                  <p class="works__description">This is my portfolio, where I show my latest projects and my experience. It was a project made to review the concepts of HTML, CSS and JavaScript that I learned until now starting from a design from bludDev.</p>
-                </div>
-              </div>
-              <div class="works__item">
-                <h3 class="works__title">Alura Books</h3>   
-                <img class="works__img" src="./img/alurabooks.png" alt="alurabooks" />
-                <div class="works__footer">
-                  <div class="works__tags__links">
-                    <ul class="works__tags">
-                      <li class="works__tag"><p class="works__tag__text">HTML</p></li>
-                      <li class="works__tag"><p class="works__tag__text">CSS</p></li> 
-                      <li class="works__tag"><p class="works__tag__text">Mobile first</p></li>
-                    </ul>
-                    <ul class="works__links">
-                      <a href="https://github.com/gsantosbruna/alurabooks"><img class="works__link" src="./img/github.svg" alt="github" /></a>
-                      <a href="https://gsantosbruna.github.io/alurabooks/"><img class="works__link" src="./img/link.svg" alt="link" /></a>
-                    </ul>
-                  </div>
-                  <p class="works__description">This is the Alura Books, a project to put in practice the mobile-first approach to apply concepts of responsiviness.</p>
-                </div>
-              </div>
-              <div class="works__item">
-                <h3 class="works__title">Alura Plus</h3>   
-                <img class="works__img" src="./img/aluraplus.png" alt="alura plus" />
-                <div class="works__footer">
-                  <div class="works__tags__links">
-                    <ul class="works__tags">
-                      <li class="works__tag"><p class="works__tag__text">HTML</p></li>
-                      <li class="works__tag"><p class="works__tag__text">CSS</p></li> 
-                    </ul>
-                    <ul class="works__links">
-                      <a href="https://github.com/gsantosbruna/alura-plus"><img class="works__link" src="./img/github.svg" alt="github" /></a>
-                      <a href="https://gsantosbruna.github.io/alura-plus/"><img class="works__link" src="./img/link.svg" alt="link" /></a>
-                    </ul>
-                  </div>
-                  <p class="works__description">This is the Alura Plus, my first project HTML + CSS.</p>
-                </div>
-              </div>
-              <div class="works__item">
-                <h3 class="works__title">Alura Books API</h3>   
-                <img class="works__img" src="./img/alurabooksapi.png" alt="alura books api" />
-                <div class="works__footer">
-                  <div class="works__tags__links">
-                    <ul class="works__tags">
-                      <li class="works__tag"><p class="works__tag__text">HTML</p></li>
-                      <li class="works__tag"><p class="works__tag__text">CSS</p></li> 
-                      <li class="works__tag"><p class="works__tag__text">JavaScript</p></li>
-                    </ul>
-                    <ul class="works__links">
-                      <a href="https://github.com/gsantosbruna/alurabooks-api"><img class="works__link" src="./img/github.svg" alt="github" /></a>
-                      <a href="https://gsantosbruna.github.io/alurabooks-api/"><img class="works__link" src="./img/link.svg" alt="link" /></a>
-                    </ul>
-                  </div>
-                  <p class="works__description">This is the Alura Book API, a project to exercise JavaScript throught the utilization of API and methods as filter, map, reduce, etc.</p>
-                </div>
-              </div>
             </div>
           </section>
           <section class="experience-banner" id="contact">
@@ -189,5 +118,6 @@
     <script src="./js/experiences/buildExperienceCompany.js" type="module"></script>
     <script src="./js/experiences/buildExperienceDetail.js" type="module"></script>
     <script src="./js/works/buildWorksCards.js" type="module"></script>
+    <script src="./js/banner/buildBanner.js" type="module"></script>
   </body>
 </html>

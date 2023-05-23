@@ -5,7 +5,17 @@
     "email": "bruna.roberta@ufpe.br",
     "linkedin": "linkedin.com/in/brunarobertasantos/",
     "github": "github.com/gsantosbruna",
-    "aboutMe": "A dedicated engineering student with a strong foundation in QA, seeking a summer internship as a Junior Web Developer at Confledis. Offering recent experience in frontend development and a passion for building innovative digital platforms.",
+    "aboutMe": "I am a Mechanical Enginering student and former QA Engineer, currently enhancing my skills in front-end development. Through my diverse engineering background, I've developed a passion for utilizing technology to tackle complex problems. Whether it's Python, Swift, or my recent explorations into JavaScript, CSS, and HTML, I am committed to creating high-quality, user-centric solutions. Welcome to my portfolio!",
+    "techs": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Swift",
+      "Python",
+      "Selenium",
+      "Jira",
+      "XCTest"
+    ],
     "education": [
       {
         "degree": "Mechatronics and Complex Systems",

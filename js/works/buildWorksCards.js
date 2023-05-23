@@ -1,8 +1,8 @@
-import { conectResume } from "../conectResume";
+import { conectResume } from "../conectResume.js";
 
 const worksContainer = document.querySelector(".works");
 
-void function createProjectCard(project) {
+export default function createProjectCard(project) {
   const worksItem = document.createElement("div");
   worksItem.classList.add("works__item");
 
@@ -67,12 +67,14 @@ void function createProjectCard(project) {
   worksFooter.appendChild(description);
 
   worksItem.appendChild(worksFooter);
-  worksContainer.appendChild(worksItem);
-};
+  return worksItem;
+}
 
 async function listProjects() {
   const listApi = await conectResume();
-  listApi.projects.forEach((project) => createProjectCard(project));
+  listApi.projects.forEach((project) =>
+    worksContainer.appendChild(createProjectCard(project))
+  );
 }
 
 listProjects();
