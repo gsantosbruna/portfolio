@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Portfolio</title>
@@ -12,7 +12,9 @@
     <header class="navBar">
       <ul class="navBar-options">
         <li class="navBar-options__link"><a href="#">Home</a></li>
-        <li class="navBar-options__link"><a href="#experiences">Experiences</a></li>
+        <li class="navBar-options__link">
+          <a href="#experiences">Experiences</a>
+        </li>
         <li class="navBar-options__link"><a href="#works">Work</a></li>
       </ul>
       <ul class="navBar-options__icons">
@@ -28,14 +30,16 @@
         </li>
       </ul>
       <ul class="navBar-contact">
-        <li class="navBar-contact__button"><a href="#contact">Contact me -></a></li>
+        <li class="navBar-contact__button">
+          <a href="#contact">Contact me -></a>
+        </li>
       </ul>
       <div class="hamburger-menu">
         <input id="menu__toggle" type="checkbox" />
         <label class="menu__btn" for="menu__toggle">
           <span></span>
         </label>
-    
+
         <ul class="menu__box">
           <li><a class="menu__item" href="#">Home</a></li>
           <li><a class="menu__item" href="#experiences">Experiences</a></li>
@@ -45,78 +49,53 @@
       </div>
     </header>
     <main class="main">
-        <section class="banner" data-banner>
-            <h1 class="banner__title">Hello I’m Bruna</h1>
-            <p class="banner__subtitle">I am a Mechanical Enginering student and former QA Engineer, currently enhancing my skills in front-end development. Through my diverse engineering background, I've developed a passion for utilizing technology to tackle complex problems. Whether it's Python, Swift, or my recent explorations into JavaScript, CSS, and HTML, I am committed to creating high-quality, user-centric solutions. Welcome to my portfolio!</p>
-            <ul class="banner-techs">
-              <li class="techs__item">
-                  <img class="banner-techs__icon" src="./img/html.svg" />
-                  <p class="banner-techs__text">HTML</p>
-              </li>
-              <li class="techs__item">
-                  <img class="banner-techs__icon" src="./img/css.svg" />
-                  <p class="banner-techs__text">CSS</p>
-              </li>
-              <li class="techs__item">
-                  <img class="banner-techs__icon" src="./img/js.svg" />
-                  <p class="banner-techs__text">JavaScript</p>
-              </li>
-              <li class="techs__item">
-                  <img class="banner-techs__icon" src="./img/swift.svg" />
-                  <p class="banner-techs__text">Swift</p>
-              </li>
-              <li class="techs__item">
-                  <img class="banner-techs__icon" src="./img/selenium.svg" />
-                  <p class="banner-techs__text">Selenium</p>
-              </li>
-              <li class="techs__item">
-                  <img class="banner-techs__icon" src="./img/python.svg" />
-                  <p class="banner-techs__text">Python</p>
-              </li>
-              <li class="techs__item">
-                  <img class="banner-techs__icon" src="./img/jira.svg" />
-                  <p class="banner-techs__text">Jira</p>
-              </li>
-              <li class="techs__item">
-                  <img class="banner-techs__icon" src="./img/xcode.svg" />
-                  <p class="banner-techs__text">XCTest</p>
-              </li>
-          </section>
-      
-          <section class="experience-banner" id="experiences">
-              <h2 class="experience-banner__title">My experience</h2>
-              <div class="experience-banner__content">
-                  <ul class="experience-company__card" data-company>
-                  </ul>
-          
-                  <ul class="experience-detail__card" data-detail>
-                    <div class="exerience-detail__main">
-                      <h4 class="experience-detail__title"></h4>
-                      <p class="experience-detail__time"></p>
-                    </div>
-                    <div class="experience-detail__description"></div>
-                  </ul>
-              </div>
-          </section>
+      <section class="banner" data-banner>
+        <h1 class="banner__title">Hello I'm</h1>
+      </section>
 
-          <section class="experience-banner" id="works">
-            <h2 class="experience-banner__title">My latest <p class="emphasys-text">works</p></h2>
-            <div class="works">
+      <section class="experience-banner" id="experiences">
+        <h2 class="experience-banner__title">My experience</h2>
+        <div class="experience-banner__content">
+          <ul class="experience-company__card" data-company></ul>
+
+          <ul class="experience-detail__card" data-detail>
+            <div class="exerience-detail__main">
+              <h4 class="experience-detail__title"></h4>
+              <p class="experience-detail__time"></p>
             </div>
-          </section>
-          <section class="experience-banner" id="contact">
-            <div class="contact__banner">
-              <h2 class="contact__title">Ready to start your next project?</h2>
-              <h2 class="emphasys-text contact__title">Get in touch with me!</h2>
-              <div class="contact__information">
-                <a href="mailto:brunargasantos@gmail.com">brunargasantos@gmail.com</a>
-                <a href="tel:+330656675535">+33 06 56 67 55 35</a>
-              </div>
-            </div>
-          </section>
+            <div class="experience-detail__description"></div>
+          </ul>
+        </div>
+      </section>
+
+      <section class="experience-banner" id="works">
+        <h2 class="experience-banner__title">
+          My latest
+          <p class="emphasys-text">works</p>
+        </h2>
+        <div class="works"></div>
+      </section>
+      <section class="experience-banner" id="contact">
+        <div class="contact__banner">
+          <h2 class="contact__title">Ready to start your next project?</h2>
+          <h2 class="emphasys-text contact__title">Get in touch with me!</h2>
+          <div class="contact__information">
+            <a href="mailto:brunargasantos@gmail.com"
+              >brunargasantos@gmail.com</a
+            >
+            <a href="tel:+330656675535">+33 06 56 67 55 35</a>
+          </div>
+        </div>
+      </section>
     </main>
-    <script src="./js/experiences/buildExperienceCompany.js" type="module"></script>
-    <script src="./js/experiences/buildExperienceDetail.js" type="module"></script>
+    <script
+      src="./js/experiences/buildExperienceCompany.js"
+      type="module"
+    ></script>
+    <script
+      src="./js/experiences/buildExperienceDetail.js"
+      type="module"
+    ></script>
     <script src="./js/works/buildWorksCards.js" type="module"></script>
     <script src="./js/banner/buildBanner.js" type="module"></script>
   </body>

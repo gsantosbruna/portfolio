@@ -1,12 +1,11 @@
-import { conectResume } from "../conectResume";
+import { conectResume } from "../conectResume.js";
 
 const banner = document.querySelector("[data-banner]");
 
 export default function createBanner(data) {
-  const bannerTitle = document.createElement("h1");
-  bannerTitle.classList.add("banner__title");
-  bannerTitle.textContent = `Hello I’m ${data.name}`;
-  banner.appendChild(bannerTitle);
+  const bannerTitle = document.querySelector(".banner__title");
+  const firstName = data.name.split(" ")[0];
+  bannerTitle.innerHTML += ` ${firstName}`;
 
   const bannerSubtitle = document.createElement("p");
   bannerSubtitle.classList.add("banner__subtitle");
