@@ -1,19 +1,28 @@
-var jsonLink;
+function getUrlParameter(name) {
+  name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+  var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
+  var results = regex.exec(window.location.search);
+  return results === null
+    ? ""
+    : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
 
-switch (window.location.pathname) {
-  case '/index.html':
-    jsonLink = 'resume';
+var jsonLink = "resume";
+var language = getUrlParameter("lang");
+
+switch (language) {
+  case "en":
+    jsonLink = "resume";
     break;
-  case '/index-pt-br.html':
-    jsonLink = 'curriculo';
+  case "pt-br":
+    jsonLink = "curriculo";
     break;
-  case '/index-fr.html':
-    jsonLink = 'cv';
+  case "fr":
+    jsonLink = "cv";
     break;
 }
 
-const url =
-  `https://raw.githubusercontent.com/gsantosbruna/portfolio/main/resume/${jsonLink}.json`;
+const url = `https://raw.githubusercontent.com/gsantosbruna/portfolio/main/resume/${jsonLink}.json`;
 
 async function getResume() {
   try {
