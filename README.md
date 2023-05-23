@@ -9,7 +9,7 @@ The project is organized as follows:
 - `css/`: Contains CSS stylesheets.
 - `img/`: Contains images used on the website, such as icons and banners.
 - `js/`: Contains JavaScript scripts.
-- `resume/`: Contains my resume.
+- `resume/`: Contains my resume on the three available languages.
 - `index.html`: The main HTML file for the website in English.
 - `index-fr.html`: The French version of the website.
 - `index-pt-br.html`: The Brazilian Portuguese version of the website.
