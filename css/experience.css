@@ -123,6 +123,7 @@
 .experience-detail__title {
   font-size: 1.2em;
   text-align: left;
+  line-height: 1.5em;
 }
 
 @media screen and (max-width: 600px) {

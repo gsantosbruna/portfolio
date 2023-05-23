@@ -5,7 +5,7 @@
     "email": "bruna.roberta@ufpe.br",
     "linkedin": "linkedin.com/in/brunarobertasantos/",
     "github": "github.com/gsantosbruna",
-    "aboutMe": "Je suis une étudiante en ingénierie mécanique et ancienne ingénieure AQ, actuellement en train d'améliorer mes compétences en développement front-end. Grâce à mon parcours d'ingénierie diversifié, j'ai développé une passion pour l'utilisation de la technologie pour résoudre des problèmes complexes. Que ce soit Python, Swift, ou mes explorations récentes en JavaScript, CSS, et HTML, je suis engagée à créer des solutions de haute qualité, centrées sur l'utilisateur. Bienvenue sur mon portfolio !",
+    "aboutMe": "Je suis une étudiante en ingénierie mécanique et ancienne ingénieure QA, actuellement en train d'améliorer mes compétences en développement front-end. Grâce à mon parcours d'ingénierie diversifié, j'ai développé une passion pour l'utilisation de la technologie pour résoudre des problèmes complexes. Que ce soit Python, Swift, ou mes explorations récentes en JavaScript, CSS, et HTML, je suis engagée à créer des solutions de haute qualité, centrées sur l'utilisateur. Bienvenue sur mon portfolio !",
     "techs": [
       "HTML",
       "CSS",
@@ -58,12 +58,12 @@
     "experience": [
       {
         "company": "CAPES",
-        "title": "Bénéficiaire de la Bourse BRAFITEC",
+        "title": "BRAFITEC",
         "startDate": "Sep 2022",
         "endDate": "Présent",
         "location": "France, Paris",
         "description": [
-          "Étudiante du programme d'échange BRAFITEC (BRAsil France Ingénieur TECnologia), développé dans le cadre de la coopération entre les gouvernements du Brésil et de la France.",
+          "Étudiante du programme d'échange BRAFITEC (BRAsil France Ingénieur TECnologie), développé dans le cadre de la coopération entre les gouvernements du Brésil et de la France.",
           "Financé par la Coordination brésilienne pour l'Amélioration du Personnel de l'Enseignement Supérieur (CAPES), qui offre des bourses à environ 200 étudiants qui se sont distingués dans les programmes d'ingénierie brésiliens."
         ]
       },
@@ -80,7 +80,7 @@
       },
       {
         "company": "CESAR",
-        "title": "Ingénieure Assurance Qualité",
+        "title": "Ingénieure QA",
         "startDate": "Juillet 2021",
         "endDate": "Août 2022",
         "location": "Brésil, Recife",
@@ -92,7 +92,7 @@
       },
       {
         "company": "Motorola",
-        "title": "Ingénieure d'essai de logiciels",
+        "title": "Ingénieure Test Logiciel",
         "startDate": "Juillet 2020",
         "endDate": "Juillet 2021",
         "location": "Brésil, Recife",

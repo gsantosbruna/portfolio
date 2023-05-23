@@ -10,8 +10,8 @@ export function createDetailCard(
   const mainDetailCard = document.querySelector(".exerience-detail__main");
   mainDetailCard.innerHTML = `
     <h4 class="experience-detail__title">
-    ${title} at 
-    <a class="emphasys-text" href="#">@${company}</a>
+    ${title} 
+    <a class="emphasys-text" href="#"> @ ${company}</a>
     </h4>
     <p class="experience-detail__time">
     ${startDate} - ${endDate}
@@ -39,8 +39,8 @@ async function buildFirstDetail() {
   const mainDetailCard = document.querySelector(".exerience-detail__main");
   mainDetailCard.innerHTML = `
       <h4 class="experience-detail__title">
-      ${title} at
-      <a class="emphasys-text" href="#">@${company}</a>
+      ${title}
+      <a class="emphasys-text" href="#">@ ${company}</a>
       </h4>
       <p class="experience-detail__time">
       ${startDate} - ${endDate}

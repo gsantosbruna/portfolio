@@ -39,4 +39,6 @@ body {
 
 .emphasys-text {
   color: var(--main-color);
+  pointer-events: none;
+  font-weight: 700;
 }
