@@ -1,0 +1,164 @@
+{
+  "data": {
+    "phone": "+33 06 56 67 55 35",
+    "name": "Bruna Santos",
+    "email": "bruna.roberta@ufpe.br",
+    "linkedin": "linkedin.com/in/brunarobertasantos/",
+    "github": "github.com/gsantosbruna",
+    "aboutMe": "Je suis une étudiante en ingénierie mécanique et ancienne ingénieure AQ, actuellement en train d'améliorer mes compétences en développement front-end. Grâce à mon parcours d'ingénierie diversifié, j'ai développé une passion pour l'utilisation de la technologie pour résoudre des problèmes complexes. Que ce soit Python, Swift, ou mes explorations récentes en JavaScript, CSS, et HTML, je suis engagée à créer des solutions de haute qualité, centrées sur l'utilisateur. Bienvenue sur mon portfolio !",
+    "techs": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Swift",
+      "Python",
+      "Selenium",
+      "Jira",
+      "XCTest"
+    ],
+    "education": [
+      {
+        "degree": "Mécatronique et Systèmes Complexes",
+        "level": "Bac+5 Ingénierie Mécanique",
+        "institution": "Institut Supérieur de Mécanique de Paris (ISAE-Supméca)",
+        "startYear": 2022,
+        "endYear": 2024
+      },
+      {
+        "degree": "Licence en Ingénierie Mécanique",
+        "institution": "Université Fédérale de Pernambouc (UFPE)",
+        "startYear": 2018,
+        "endYear": 2024
+      },
+      {
+        "degree": "Automatisation des tests, Extension des Technologies de l'Information et de la Communication",
+        "institution": "CESAR School",
+        "startYear": 2021,
+        "endYear": 2022
+      }
+    ],
+    "languages": [
+      {
+        "language": "Anglais",
+        "proficiency": "Courant"
+      },
+      {
+        "language": "Français",
+        "proficiency": "Avancé"
+      },
+      {
+        "language": "Portugais",
+        "proficiency": "Natif"
+      },
+      {
+        "language": "Espagnol",
+        "proficiency": "Intermédiaire"
+      }
+    ],
+    "experience": [
+      {
+        "company": "CAPES",
+        "title": "Bénéficiaire de la Bourse BRAFITEC",
+        "startDate": "Sep 2022",
+        "endDate": "Présent",
+        "location": "France, Paris",
+        "description": [
+          "Étudiante du programme d'échange BRAFITEC (BRAsil France Ingénieur TECnologia), développé dans le cadre de la coopération entre les gouvernements du Brésil et de la France.",
+          "Financé par la Coordination brésilienne pour l'Amélioration du Personnel de l'Enseignement Supérieur (CAPES), qui offre des bourses à environ 200 étudiants qui se sont distingués dans les programmes d'ingénierie brésiliens."
+        ]
+      },
+      {
+        "company": "ENERMAN",
+        "title": "Chercheuse de projet",
+        "startDate": "Sep 2022",
+        "endDate": "Jan 2023",
+        "location": "France, Paris",
+        "description": [
+          "Recherché et développé un modèle de réseau bayésien pour créer une analyse d'évaluation des risques d'un outil de prévision énergétique (ENERMAN).",
+          "Utilisé Python, en particulier les bibliothèques pgmpy et matplotlib, pour construire un modèle de nœud papillon pour l'analyse des risques."
+        ]
+      },
+      {
+        "company": "CESAR",
+        "title": "Ingénieure Assurance Qualité",
+        "startDate": "Juillet 2021",
+        "endDate": "Août 2022",
+        "location": "Brésil, Recife",
+        "description": [
+          "Développé des compétences en communication en anglais dans un environnement international avec une équipe mondiale.",
+          "Créé et exécuté des plans de test pour des tests manuels fonctionnels et non fonctionnels.",
+          "Créé des tests automatisés d'interface utilisateur en utilisant le langage Swift et le cadre XCUITest sur des appareils iOS."
+        ]
+      },
+      {
+        "company": "Motorola",
+        "title": "Ingénieure d'essai de logiciels",
+        "startDate": "Juillet 2020",
+        "endDate": "Juillet 2021",
+        "location": "Brésil, Recife",
+        "description": [
+          "Stagiaire de juillet 2020 à avril 2021",
+          "Ingénieure d'essai à temps plein d'avril 2021 à juillet 2021",
+          "Exécuté des cycles de test manuels avec des tests fonctionnels de régression et exploratoires.",
+          "Exécution et maintenance de scripts de test automatisés pour Android en utilisant Java et UIAutomator.",
+          "Investigation et suivi des problèmes, ouverture des demandes de modification (CR's), et retests avec JIRA."
+        ]
+      }
+    ],
+    "skills": {
+      "soft": [
+        "Résolution de problèmes",
+        "Sensibilité culturelle",
+        "Adaptabilité",
+        "Travail en équipe",
+        "Collaboration",
+        "Communication"
+      ],
+      "over2Years": ["Python", "Git", "GitHub"],
+      "over1Year": ["Swift", "XCUITest", "XCTest", "Scrum", "Jira", "Selenium"],
+      "lessThan1Year": [
+        "JavaScript",
+        "CSS",
+        "HTML5",
+        "C/C++",
+        "Arduino",
+        "Matlab"
+      ]
+    },
+    "certifications": ["Niveau Fondamental CTFL - ISQTB"],
+    "projects": [
+      {
+        "title": "Portfolio",
+        "image": "./img/portfolio.png",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "githubLink": "https://github.com/gsantosbruna/portfolio",
+        "liveLink": "",
+        "description": "C'est mon portfolio, où je présente mes derniers projets et expériences. C'était un projet fait pour revoir les concepts de HTML, CSS, et JavaScript que j'ai appris jusqu'à maintenant, en partant d'un design par bludDev."
+      },
+      {
+        "title": "Alura Books",
+        "image": "./img/alurabooks.png",
+        "tags": ["HTML", "CSS", "Mobile first"],
+        "githubLink": "https://github.com/gsantosbruna/alurabooks",
+        "liveLink": "https://gsantosbruna.github.io/alurabooks/",
+        "description": "Ceci est Alura Books, un projet pour mettre en pratique l'approche mobile-first et appliquer les concepts de design responsive."
+      },
+      {
+        "title": "Alura Plus",
+        "image": "./img/aluraplus.png",
+        "tags": ["HTML", "CSS"],
+        "githubLink": "https://github.com/gsantosbruna/alura-plus",
+        "liveLink": "https://gsantosbruna.github.io/alura-plus/",
+        "description": "Ceci est Alura Plus, mon premier projet HTML + CSS."
+      },
+      {
+        "title": "API Alura Books",
+        "image": "./img/alurabooksapi.png",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "githubLink": "https://github.com/gsantosbruna/alurabooks-api",
+        "liveLink": "https://gsantosbruna.github.io/alurabooks-api/",
+        "description": "Ceci est l'API Alura Books, un projet pour pratiquer JavaScript en utilisant des APIs et des méthodes comme filter, map, reduce, etc."
+      }
+    ]
+  }
+}

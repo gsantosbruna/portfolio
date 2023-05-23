@@ -1,5 +1,19 @@
+var jsonLink;
+
+switch (window.location.pathname) {
+  case '/index.html':
+    jsonLink = 'resume';
+    break;
+  case '/index-pt-br.html':
+    jsonLink = 'curriculo';
+    break;
+  case '/index-fr.html':
+    jsonLink = 'cv';
+    break;
+}
+
 const url =
-  "https://raw.githubusercontent.com/gsantosbruna/portfolio/main/resume.json";
+  `https://raw.githubusercontent.com/gsantosbruna/portfolio/main/resume/${jsonLink}.json`;
 
 async function getResume() {
   try {
