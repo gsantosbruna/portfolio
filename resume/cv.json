@@ -5,7 +5,7 @@
     "email": "bruna.roberta@ufpe.br",
     "linkedin": "linkedin.com/in/brunarobertasantos/",
     "github": "github.com/gsantosbruna",
-    "aboutMe": "Je suis une étudiante en ingénierie mécanique et ancienne ingénieure QA, et je suis actuellement en train d'améliorer mes compétences en développement front-end. Grâce à mon parcours d'ingénierie diversifié, j'ai développé une passion pour l'utilisation de la technologie pour résoudre des problèmes complexes. Que ce soit en Python, Swift, ou lors de mes récentes explorations en JavaScript, CSS et HTML, je suis engagée à créer des solutions de haute qualité centrées sur l'utilisateur. Bienvenue sur mon portfolio !",
+    "aboutMe": "Je suis une étudiante en ingénierie mécanique et ancienne ingénieure QA, et je suis actuellement en train d'améliorer mes compétences en développement front-end. Grâce à mon parcours d'ingénierie diversifié, j'ai développé une passion pour l'utilisation de la technologie pour résoudre des problèmes complexes. Que ce soit en Python, Swift, ou lors de mes récentes explorations en JavaScript, CSS et HTML, mon engagement est de créer des solutions de haute qualité centrées sur l'utilisateur. Bienvenue sur mon portfolio !",
     "techs": [
       "HTML",
       "CSS",
@@ -63,8 +63,8 @@
         "endDate": "Présent",
         "location": "France, Paris",
         "description": [
-          "Je suis étudiante dans le cadre du programme d'échange BRAFITEC (BRAsil France Ingénieur TECnologie), développé dans le cadre de la coopération entre les gouvernements du Brésil et de la France.",
-          "Ce programme est financé par la Coordination brésilienne pour l'Amélioration du Personnel de l'Enseignement Supérieur (CAPES) qui offre des bourses à environ 200 étudiants brésiliens distingués dans des programmes d'ingénierie."
+          "Participation au programme d'échange BRAFITEC (BRAsil France Ingénieur TECnologie) développé dans le cadre de la coopération entre les gouvernements du Brésil et de la France.",
+          "Bénéficiaire d'une bourse de la Coordination brésilienne pour l'Amélioration du Personnel de l'Enseignement Supérieur (CAPES) réservée à environ 200 étudiants brésiliens distingués dans des programmes d'ingénierie."
         ]
       },
       {
@@ -74,8 +74,8 @@
         "endDate": "Jan 2023",
         "location": "France, Paris",
         "description": [
-          "J'ai recherché et développé un modèle de réseau bayésien pour créer une analyse d'évaluation des risques pour un outil de prévision énergétique appelé ENERMAN.",
-          "J'ai utilisé Python, en particulier les bibliothèques pgmpy et matplotlib, pour construire un modèle de nœud papillon pour l'analyse des risques."
+          "Recherche et développement d'un modèle de réseau bayésien pour une analyse d'évaluation des risques dans l'outil de prévision énergétique ENERMAN.",
+          "Utilisation de Python, notamment des bibliothèques pgmpy et matplotlib, pour la construction d'un modèle de nœud papillon pour l'analyse des risques."
         ]
       },
       {
@@ -85,9 +85,9 @@
         "endDate": "Août 2022",
         "location": "Brésil, Recife",
         "description": [
-          "J'ai développé mes compétences en communication en anglais dans un environnement international avec une équipe mondiale.",
-          "J'ai créé et exécuté des plans de test pour des tests manuels fonctionnels et non fonctionnels.",
-          "J'ai créé des tests automatisés de l'interface utilisateur en utilisant le langage Swift et le framework XCUITest sur des appareils iOS."
+          "Développement de compétences en communication en anglais au sein d'une équipe internationale.",
+          "Création et exécution de plans de test pour des tests manuels fonctionnels et non fonctionnels.",
+          "Création de tests automatisés de l'interface utilisateur en utilisant Swift et le framework XCUITest sur des appareils iOS."
         ]
       },
       {
@@ -97,10 +97,10 @@
         "endDate": "Juillet 2021",
         "location": "Brésil, Recife",
         "description": [
-          "J'ai été stagiaire de juillet 2020 à avril 2021, puis j'ai été ingénieure de test à temps plein d'avril 2021 à juillet 2021.",
-          "J'ai effectué des cycles de tests manuels avec des tests fonctionnels de régression et exploratoires.",
-          "J'ai exécuté et maintenu des scripts de tests automatisés pour Android en utilisant Java et UIAutomator.",
-          "J'ai enquêté sur les problèmes, suivi leur résolution, ouvert des demandes de modification (CR) et effectué des retests avec JIRA."
+          "Stage de juillet 2020 à avril 2021, puis emploi à plein temps en tant qu'ingénieure de test d'avril 2021 à juillet 2021.",
+          "Réalisation de cycles de tests manuels comprenant des tests fonctionnels de régression et des tests exploratoires.",
+          "Exécution et maintenance de scripts de tests automatisés pour Android en utilisant Java et UIAutomator.",
+          "Investigation des problèmes, suivi de leur résolution, ouverture de demandes de modification (CR) et réalisation de retests avec JIRA."
         ]
       }
     ],
