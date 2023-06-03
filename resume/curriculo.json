@@ -106,7 +106,7 @@
       }
     ],
     "skills": {
-      "soft": [
+      "Interpessoais": [
         "Resolução de problemas",
         "Sensibilidade cultural",
         "Adaptabilidade",
@@ -114,8 +114,8 @@
         "Colaboração",
         "Comunicação"
       ],
-      "Over 2 years": ["Python", "Git", "GitHub"],
-      "Over 1 year": [
+      "Mais de 2 anos": ["Python", "Git", "GitHub"],
+      "Mais de 1 ano": [
         "Swift",
         "XCUITest",
         "XCTest",
@@ -123,7 +123,7 @@
         "Jira",
         "Selenium"
       ],
-      "Less than 1 year": [
+      "Menos de 1 ano": [
         "JavaScript",
         "CSS",
         "HTML5",
