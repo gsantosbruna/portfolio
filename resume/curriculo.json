@@ -114,9 +114,16 @@
         "Colaboração",
         "Comunicação"
       ],
-      "over2Years": ["Python", "Git", "GitHub"],
-      "over1Year": ["Swift", "XCUITest", "XCTest", "Scrum", "Jira", "Selenium"],
-      "lessThan1Year": [
+      "Over 2 years": ["Python", "Git", "GitHub"],
+      "Over 1 year": [
+        "Swift",
+        "XCUITest",
+        "XCTest",
+        "Scrum",
+        "Jira",
+        "Selenium"
+      ],
+      "Less than 1 year": [
         "JavaScript",
         "CSS",
         "HTML5",
