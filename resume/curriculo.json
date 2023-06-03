@@ -5,7 +5,7 @@
     "email": "bruna.roberta@ufpe.br",
     "linkedin": "linkedin.com/in/brunarobertasantos/",
     "github": "github.com/gsantosbruna",
-    "aboutMe": "Sou estudante de Engenharia Mecânica e ex-Engenheira de QA, atualmente aprimorando minhas habilidades em desenvolvimento front-end. Por meio de minha diversificada formação em engenharia, desenvolvi uma paixão por utilizar a tecnologia para enfrentar problemas complexos. Seja Python, Swift, ou minhas recentes explorações em JavaScript, CSS, e HTML, estou comprometida em criar soluções de alta qualidade e centradas no usuário. Bem-vindo ao meu portfólio!",
+    "aboutMe": "Sou estudante de Engenharia Mecânica e ex-Engenheira de QA, atualmente aprimorando minhas habilidades em desenvolvimento front-end. Através da minha formação diversificada em engenharia, desenvolvi uma paixão por utilizar a tecnologia para resolver problemas complexos. Seja Python, Swift ou minhas recentes explorações em JavaScript, CSS e HTML, estou comprometida em criar soluções de alta qualidade e centradas no usuário. Bem-vindo ao meu portfólio!",
     "techs": [
       "HTML",
       "CSS",
@@ -18,7 +18,7 @@
     ],
     "education": [
       {
-        "degree": "Mecatrônica e Sistemas Complexos",
+        "degree": "Engenharia Mecânica com ênfase em Mecatrônica e Sistemas Complexos",
         "level": "Bac+5 Engenharia Mecânica",
         "institution": "Institut Supérieur de Mécanique de Paris (ISAE-Supméca)",
         "startYear": 2022,
@@ -64,7 +64,7 @@
         "location": "França, Paris",
         "description": [
           "Estudante do programa de intercâmbio BRAFITEC (BRAsil France Ingénieurs TEChnologie), desenvolvido no âmbito da cooperação entre os governos do Brasil e da França.",
-          "Financiado pela Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), que oferece bolsas para cerca de 200 estudantes que se destacaram em programas de engenharia brasileiros."
+          "Financiada da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), que oferece bolsas para cerca de 200 estudantes que se destacaram em programas de engenharia brasileiros."
         ]
       },
       {
@@ -74,8 +74,8 @@
         "endDate": "Jan 2023",
         "location": "França, Paris",
         "description": [
-          "Pesquisou e desenvolveu um modelo de Rede Bayesiana para criar análises de avaliação de risco de uma ferramenta de previsão de energia (ENERMAN).",
-          "Utilizou Python, especialmente as bibliotecas pgmpy e matplotlib, para construir um modelo bow-tie para análise de risco."
+          "Pesquisei e desenvolvi um modelo de Rede Bayesiana para criar análises de avaliação de risco de uma ferramenta de previsão de energia (ENERMAN).",
+          "Utilizei Python, especialmente as bibliotecas pgmpy e matplotlib, para construir um modelo bow-tie para análise de risco."
         ]
       },
       {
@@ -85,9 +85,9 @@
         "endDate": "Ago 2022",
         "location": "Brasil, Recife",
         "description": [
-          "Desenvolveu habilidades de comunicação em inglês em um ambiente internacional com uma equipe global.",
-          "Criou e executou planos de teste para testes manuais funcionais e não funcionais.",
-          "Criou testes automatizados de UI usando a linguagem Swift e a framework XCUITest em dispositivos iOS."
+          "Desenvolvi habilidades de comunicação em inglês em um ambiente internacional com uma equipe global.",
+          "Criei e executei planos de teste para testes manuais funcionais e não funcionais.",
+          "Criei testes automatizados de UI usando a linguagem Swift e o framework XCUITest em dispositivos iOS."
         ]
       },
       {
@@ -97,11 +97,11 @@
         "endDate": "Jul 2021",
         "location": "Brasil, Recife",
         "description": [
-          "Estágio de Julho 2020 a Abril 2021",
-          "Engenheira de Teste em tempo integral de Abril 2021 a Julho 2021",
-          "Executou ciclos de teste manual com testes funcionais de regressão e exploratórios.",
-          "Execução e manutenção de scripts de teste automatizado para Android usando Java e UIAutomator.",
-          "Investigação e rastreamento de problemas, abertura de pedidos de mudança (CR's) e retestes com JIRA."
+          "Estágio de julho de 2020 a abril de 2021",
+          "Engenheira de Testes CLT em tempo integral de abril de 2021 a julho de 2021",
+          "Executei ciclos de teste manual com testes funcionais de regressão e exploratórios.",
+          "Executei e mantive scripts de teste automatizados para Android usando Java e UIAutomator.",
+          "Investiguei e rastreei problemas, abri pedidos de mudança (CR's) e realizei retestes usando o JIRA."
         ]
       }
     ],
@@ -135,37 +135,22 @@
     "certifications": ["CTFL Foundation Level - ISQTB"],
     "projects": [
       {
-        "title": "Portfólio",
+        "title": "Meu Portfólio",
         "image": "./img/portfolio.png",
         "tags": ["HTML", "CSS", "JavaScript"],
         "githubLink": "https://github.com/gsantosbruna/portfolio",
         "liveLink": "",
-        "description": "Este é o meu portfólio, onde apresento meus últimos projetos e experiências. Foi um projeto feito para revisar os conceitos de HTML, CSS e JavaScript que aprendi até agora, partindo de um design de bludDev."
+        "description": "Este é o meu portfólio, onde apresento meus últimos projetos e experiências. Foi um projeto feito para revisar os conceitos de HTML, CSS e JavaScript que aprendi até agora, seguindo o design da bludDev."
       },
       {
         "title": "Alura Books",
         "image": "./img/alurabooks.png",
-        "tags": ["HTML", "CSS", "Mobile first"],
-        "githubLink": "https://github.com/gsantosbruna/alurabooks",
-        "liveLink": "https://gsantosbruna.github.io/alurabooks/",
-        "description": "Este é o Alura Books, um projeto para colocar em prática a abordagem mobile-first e aplicar conceitos de design responsivo."
-      },
-      {
-        "title": "Alura Plus",
-        "image": "./img/aluraplus.png",
-        "tags": ["HTML", "CSS"],
-        "githubLink": "https://github.com/gsantosbruna/alura-plus",
-        "liveLink": "https://gsantosbruna.github.io/alura-plus/",
-        "description": "Este é o Alura Plus, meu primeiro projeto HTML + CSS."
-      },
-      {
-        "title": "API Alura Books",
-        "image": "./img/alurabooksapi.png",
-        "tags": ["HTML", "CSS", "JavaScript"],
-        "githubLink": "https://github.com/gsantosbruna/alurabooks-api",
-        "liveLink": "https://gsantosbruna.github.io/alurabooks-api/",
-        "description": "Esta é a API Alura Books, um projeto para praticar JavaScript utilizando APIs e métodos como filter, map, reduce, etc."
+        "tags": ["HTML", "CSS", "Mobile First", "JavaScript", "React"],
+        "githubLink": "https://github.com/gsantosbruna/alura-books",
+        "liveLink": "",
+        "description": "O Alura Books é uma aplicação web responsiva que exibe uma lista de livros, permitindo que o usuário pesquise e filtre os livros por categorias. Este projeto foi desenvolvido como parte do curso 'React: Entendendo como a biblioteca funciona' da Alura."
       }
-    ]
+    ],
+    "contactText": "Fique à vontade para entrar em contato comigo se tiver alguma pergunta ou oportunidade de trabalho interessante. Estou ansiosa para ouvir de você!"
   }
 }
