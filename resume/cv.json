@@ -26,7 +26,7 @@
       },
       {
         "degree": "Licence en Ingénierie Mécanique",
-        "institution": "Université Fédérale de Pernambouc (UFPE)",
+        "institution": "Université Fédérale de Pernambuco (UFPE)",
         "startYear": 2018,
         "endYear": 2024
       },
@@ -115,7 +115,7 @@
         "Communication"
       ],
       "Plus de 2 ans": ["Python", "Git", "GitHub"],
-      "Plus de 1 an": [
+      "Plus d'un an": [
         "Swift",
         "XCUITest",
         "XCTest",
