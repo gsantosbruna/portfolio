@@ -135,22 +135,6 @@
     "certifications": ["CTFL Foundation Level - ISQTB"],
     "projects": [
       {
-        "title": "Portfolio",
-        "image": "./img/portfolio.png",
-        "tags": ["HTML", "CSS", "JavaScript"],
-        "githubLink": "https://github.com/gsantosbruna/portfolio",
-        "liveLink": "",
-        "description": "This is my portfolio, where I showcase my latest projects and experience. It was a project made to review the concepts of HTML, CSS, and JavaScript that I have learned so far, starting from a design by bludDev."
-      },
-      {
-        "title": "Alura Books",
-        "image": "./img/alurabooks.png",
-        "tags": ["HTML", "CSS", "Mobile first"],
-        "githubLink": "https://github.com/gsantosbruna/alurabooks",
-        "liveLink": "https://gsantosbruna.github.io/alurabooks/",
-        "description": "This is Alura Books, a project to put the mobile-first approach into practice and apply responsive design concepts."
-      },
-      {
         "title": "Space Gallery",
         "image": "./img/space.png",
         "tags": ["HTML", "SCSS", "JavaScript", "React"],
@@ -165,6 +149,22 @@
         "githubLink": "https://github.com/gsantosbruna/organoReact",
         "liveLink": "https://organo-react-liard.vercel.app/",
         "description": "This is the Organo project, my first React project. It is a simple website to create and manage organograms."
+      },
+      {
+        "title": "Portfolio",
+        "image": "./img/portfolio.png",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "githubLink": "https://github.com/gsantosbruna/portfolio",
+        "liveLink": "",
+        "description": "This is my portfolio, where I showcase my latest projects and experience. It was a project made to review the concepts of HTML, CSS, and JavaScript that I have learned so far, starting from a design by bludDev."
+      },
+      {
+        "title": "Alura Books",
+        "image": "./img/alurabooks.png",
+        "tags": ["HTML", "CSS", "Mobile first"],
+        "githubLink": "https://github.com/gsantosbruna/alurabooks",
+        "liveLink": "https://gsantosbruna.github.io/alurabooks/",
+        "description": "This is Alura Books, a project to put the mobile-first approach into practice and apply responsive design concepts."
       }
     ]
   }
