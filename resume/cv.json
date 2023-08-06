@@ -152,20 +152,20 @@
         "description": "Il s'agit d'Alura Books, un projet visant à mettre en pratique l'approche mobile-first et à appliquer les concepts de design responsive."
       },
       {
-        "title": "Alura Plus",
-        "image": "./img/aluraplus.png",
-        "tags": ["HTML", "CSS"],
-        "githubLink": "https://github.com/gsantosbruna/alura-plus",
-        "liveLink": "https://gsantosbruna.github.io/alura-plus/",
-        "description": "Il s'agit d'Alura Plus, mon premier projet HTML + CSS."
+        "title": "Space Gallery",
+        "image": "./img/space.png",
+        "tags": ["HTML", "SCSS", "JavaScript", "React"],
+        "githubLink": "https://github.com/gsantosbruna/SpaceGallery",
+        "liveLink": "https://space-gallery-eight.vercel.app/",
+        "description": "Il s'agit de Space Gallery, l'un de mes premiers projets React. C'est une simple galerie de photos de l'espace. Obs.: Seule la page d'accueil est complète."
       },
       {
-        "title": "API Alura Books",
-        "image": "./img/alurabooksapi.png",
-        "tags": ["HTML", "CSS", "JavaScript"],
-        "githubLink": "https://github.com/gsantosbruna/alurabooks-api",
-        "liveLink": "https://gsantosbruna.github.io/alurabooks-api/",
-        "description": "Il s'agit de l'API Alura Books, un projet visant à pratiquer JavaScript en utilisant des APIs et des méthodes telles que filter, map, reduce, etc."
+        "title": "Organo",
+        "image": "./img/organo.png",
+        "tags": ["HTML", "CSS", "JavaScript", "React"],
+        "githubLink": "https://github.com/gsantosbruna/organoReact",
+        "liveLink": "https://organo-react-liard.vercel.app/",
+        "description": "Il s'agit du projet Organo, mon premier projet React. C'est un site web simple pour créer et gérer des organigrammes."
       }
     ]
   }

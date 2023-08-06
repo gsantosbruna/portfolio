@@ -151,20 +151,20 @@
         "description": "This is Alura Books, a project to put the mobile-first approach into practice and apply responsive design concepts."
       },
       {
-        "title": "Alura Plus",
-        "image": "./img/aluraplus.png",
-        "tags": ["HTML", "CSS"],
-        "githubLink": "https://github.com/gsantosbruna/alura-plus",
-        "liveLink": "https://gsantosbruna.github.io/alura-plus/",
-        "description": "This is Alura Plus, my first HTML + CSS project."
+        "title": "Space Gallery",
+        "image": "./img/space.png",
+        "tags": ["HTML", "SCSS", "JavaScript", "React"],
+        "githubLink": "https://github.com/gsantosbruna/SpaceGallery",
+        "liveLink": "https://space-gallery-eight.vercel.app/",
+        "description": "This is Space Gallery, one of my firsts React projects. This is a simple gallery of space pictures. Obs.: Only the homepage is complete."
       },
       {
-        "title": "Alura Books API",
-        "image": "./img/alurabooksapi.png",
-        "tags": ["HTML", "CSS", "JavaScript"],
-        "githubLink": "https://github.com/gsantosbruna/alurabooks-api",
-        "liveLink": "https://gsantosbruna.github.io/alurabooks-api/",
-        "description": "This is the Alura Books API, a project to practice JavaScript by utilizing APIs and methods such as filter, map, reduce, etc."
+        "title": "Organo",
+        "image": "./img/organo.png",
+        "tags": ["HTML", "CSS", "JavaScript", "React"],
+        "githubLink": "https://github.com/gsantosbruna/organoReact",
+        "liveLink": "https://organo-react-liard.vercel.app/",
+        "description": "This is the Organo project, my first React project. It is a simple website to create and manage organograms."
       }
     ]
   }

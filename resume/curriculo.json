@@ -149,6 +149,22 @@
         "githubLink": "https://github.com/gsantosbruna/alura-books",
         "liveLink": "",
         "description": "O Alura Books é uma aplicação web responsiva que exibe uma lista de livros, permitindo que o usuário pesquise e filtre os livros por categorias. Este projeto foi desenvolvido como parte do curso 'React: Entendendo como a biblioteca funciona' da Alura."
+      },
+      {
+        "title": "Space Gallery",
+        "image": "./img/space.png",
+        "tags": ["HTML", "SCSS", "JavaScript", "React"],
+        "githubLink": "https://github.com/gsantosbruna/SpaceGallery",
+        "liveLink": "https://space-gallery-eight.vercel.app/",
+        "description": "Esta é a Space Gallery, um dos meus primeiros projetos em React. É uma galeria simples de fotos do espaço. Obs.: Apenas a página inicial está completa."
+      },
+      {
+        "title": "Organo",
+        "image": "./img/organo.png",
+        "tags": ["HTML", "CSS", "JavaScript", "React"],
+        "githubLink": "https://github.com/gsantosbruna/organoReact",
+        "liveLink": "https://organo-react-liard.vercel.app/",
+        "description": "Este é o projeto Organo, meu primeiro projeto em React. É um site simples para criar e gerenciar organogramas."
       }
     ],
     "contactText": "Fique à vontade para entrar em contato comigo se tiver alguma pergunta ou oportunidade de trabalho interessante. Estou ansiosa para ouvir de você!"
