@@ -1,20 +1,20 @@
 {
   "data": {
-    "phone": "+33 06 56 67 55 35",
-    "name": "Bruna Santos",
-    "email": "bruna.roberta@ufpe.br",
-    "linkedin": "linkedin.com/in/brunarobertasantos/",
-    "github": "github.com/gsantosbruna",
-    "aboutMe": "Sou estudante de Engenharia Mecânica e ex-Engenheira de QA, atualmente aprimorando minhas habilidades em desenvolvimento front-end. Através da minha formação diversificada em engenharia, desenvolvi uma paixão por utilizar a tecnologia para resolver problemas complexos. Seja Python, Swift ou minhas recentes explorações em JavaScript, CSS e HTML, estou comprometida em criar soluções de alta qualidade e centradas no usuário. Bem-vindo ao meu portfólio!",
+    "phone": "+55 81 99503-7404",
+    "name": "Pedro Fernandes",
+    "email": "pedro.gmfernandes@ufpe.br",
+    "linkedin": "linkedin.com/in/pedro-f-279603141/",
+    "github": "github.com/predoeu",
+    "aboutMe": "Sou estudante de Estatística e Análise e Desevolvimento de Sistemas, atualmente sou Estágiário de Dados e Desenvolvimento na Datamétrica Pesquisas. Apaixonado por matématica e programação, dados, back-end e testes estão entre as minhas paixões. Aqui você pode conhecer um pouco dos projetos públicos que já trabalhei!",
     "techs": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Swift",
       "Python",
+      "R",
+      "SQL",
       "Selenium",
-      "Jira",
-      "XCTest"
+      "C++",
+      "Java",
+      "Shiny",
+      "Dash"
     ],
     "education": [
       {
